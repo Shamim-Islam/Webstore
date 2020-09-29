@@ -3,21 +3,47 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: cursive;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/*----------------- Generic css code --------------------*/
+
+/* section title */
+.section-title h1 {
+    color: #621885;
+    font-size: 40px;
+    /*word-spacing: 3px;*/
+}
+
+.underline {
+    width: 280px;
+    margin: 5px auto 80px;
 }
 
 /* Navigation */
 
 #nav-bar {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 10;
 }
 
 .navbar {
+    background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     padding: 0 !important;
 }
@@ -63,9 +89,10 @@ body {
     outline: none !important;
 }
 
-/* Banner section */
+/* ------------------- Banner section ------------------- */
 
 #banner {
+    background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     color: #fff;
     padding-top: 5%;
@@ -79,14 +106,310 @@ body {
     letter-spacing: 1px;
 }
 
+.play-btn {
+    width: 40px;
+    margin: 20px;
+}
 
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
 
+.computer-man {
+    height: 450px;
+}
 
+.wave-1 {
+    width: 100%;
+    margin-bottom: -5px;
+}
 
+/* ------------------- services section ------------------- */
 
+#services {
+    padding: 70px 0;
+}
 
+.services {
+    padding: 20px;
+}
 
+.services h4,
+#about-us h4 {
+    padding: 5px;
+    margin: 15px auto;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #8675a9;
+}
 
+.services p {
+    width: 85%;
+    margin: auto;
+}
+
+.btn-primary {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
+    background-image: linear-gradient(to right, #a517ba, #5f1782);   
+}
+
+.btn-primary:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all .8s ease;
+}
+
+/* ------------------- About us section ------------------- */
+
+#about-us {
+    padding: 70px 0;
+    background: #f8f9fa;
+}
+
+.about-pic {
+    height: 470px;
+}
+
+.about-left {
+    padding-top: 50px;
+}
+
+.about-left p {
+    width: 100%;
+}
+
+/* ------------------- Testimonials section ------------------- */
+
+#testimonials {
+    padding: 80px 0;
+}
+
+.testi-left {
+    height: 400px;
+}
+
+.testi-right {
+    height: 340px;
+    float: right;
+}
+
+.testimonial-left {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.testimonial-right {
+    padding-left: 5px;
+}
+
+.testimonial-left h6,
+.testimonial-right h6 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.middle-border {
+    width: 250px;
+    height: 2.5px;
+    background-color: #621885;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -125px;
+    transform: rotate(90deg);
+    position: relative;
+}
+
+/* ------------------- Contact section ------------------- */
+
+#contact {
+    padding: 70px 0;
+}
+
+.contact-left {
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.avater {
+    height: 100px;
+}
+
+.login-content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+form {
+	width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-content h2{
+	margin: 15px 0;
+	color: #593a9a;
+}
+
+.login-content .input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #a17cef;
+}
+
+.input-div:after, .input-div:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #621885;
+    transition: .3s;
+}
+
+.input-div:after {
+    right: 50%;
+}
+
+.input-div:before {
+    left: 50%;
+}
+
+.input-div.focus .i i {
+    color: #621885;
+}
+
+.input-div.focus:after, .input-div.focus:before {
+    width: 50%;
+}
+
+.input-div.focus div h5 {
+    top: -5px;
+    font-size: 15px;
+}
+
+.input-div.one {
+    margin-top: 0;
+}
+
+.input-div.two {
+    margin-bottom: 5px;
+}
+
+.i{
+	color: #a17cef;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i{
+	transition: .3s;
+}
+
+.input-div > div {
+    position: relative;
+    height: 45px;
+}
+
+.input-div > div > h5 {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 18px;
+    transition: all .3s;
+   
+}
+
+.input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    font-size: 19px;
+    padding: 8px 11px;
+}
+
+.login-content a {
+    display: block;
+    text-align: right;
+    color: #999;
+    transition: all .3s;
+}
+
+.login-content a:hover {
+    color: #621885;
+    text-decoration: none;
+}
+
+input.btn {
+    width: 100%;
+    background-size: 200%;
+    margin-top: 25px;
+    transition: all .3s;
+}
+
+input.btn:hover {
+    background-position: right;
+    transform: scale(1.02);
+}
+
+.social {
+    margin-top: 150px;
+}
+
+.social h2 {
+    color: #8675a9;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.social-icons img {
+    height: 100px;
+    padding: 12px;
+    transition: .3s;
+}
+
+.social-icons img:hover {
+    transform: translateY(-15px);
+}
+
+.social img {
+    margin-top: 50px;
+}
+
+/* ------------------- Footer section ------------------- */
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-wave {
+    width: 100%;
+    margin-top: -5px;
+}
 
 
 
