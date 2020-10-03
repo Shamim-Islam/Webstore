@@ -172,10 +172,6 @@ h4 {
     background: #f8f9fa;
 }
 
-.about-pic {
-    height: 470px;
-}
-
 .about-left {
     padding-top: 50px;
 }
@@ -404,6 +400,7 @@ input.btn:hover {
 
 #footer {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
 }
 
 .footer-wave {
@@ -411,9 +408,36 @@ input.btn:hover {
     margin-top: -5px;
 }
 
+.map {
+    height: 250px;
+    margin-top: 10px;
+}
+
+address {
+    font-weight: 300;
+}
+
+.phone-fax-email i {
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.phone-fax-email li {
+    list-style: none;
+    vertical-align: middle;
+}
+
+#footer hr {
+    border-top: 3px solid #fff;
+    margin: 20px auto;
+}
+
+.footer-text p {
+    margin-bottom: 10px;
+}
 
 
-
-
-
-
+.footer-text b {
+    font-size: 17px;
+}
