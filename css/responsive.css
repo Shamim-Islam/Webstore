@@ -1,0 +1,248 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+
+    /* testimonial */
+    #testimonials {
+        padding-bottom: 0 !important;
+    }
+
+    /* contact */
+    .social {
+        margin-top: 50px !important;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* all section */
+    #services,
+    #about-us,
+    #testimonials,
+    #contact {
+        padding: 40px 0 !important;
+    }
+
+    /* testimonial */
+    #testimonials {
+        padding-bottom: 0 !important;
+    }
+
+    /* contact */
+    .social {
+        margin-top: 40px !important;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .promo-title {
+        font-size: 30px !important;
+    }
+
+    /* all section */
+    #services,
+    #about-us,
+    #testimonials,
+    #contact {
+        padding: 30px 0 !important;
+    }
+
+    .section-title h1 {
+        font-size: 30px !important;
+    }
+
+    .underline {
+        margin-bottom: 50px !important;
+        width: 200px !important;
+    }
+
+    /* services */
+    .services h4,
+    #about-us h4 {
+        font-size: 25px !important;
+    }
+
+    .sv-img {
+        margin-top: 0 !important;
+    }
+
+    .sv-img-lst {
+        margin-top: 20px !important;
+    }
+
+    /* about-us */
+    .about-left {
+        padding-top: 0 !important;
+    }
+
+    #about-us .col-md-10 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* testimonial */
+    .middle-border {
+        display: none;
+    }
+
+    /* contact */
+    .social {
+        margin-top: 30px !important;
+    }
+
+    .social-icons img {
+        height: 80px !important;
+    }
+
+    .social img {
+        margin-top: 10px !important;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    #banner .col-md-6 {
+        text-align: center;
+    }
+    
+    .promo-title {
+        font-size: 35px !important;
+    }
+
+    /* all section */
+    #services,
+    #about-us,
+    #testimonials,
+    #contact {
+        padding: 35px 0 !important;
+    }
+
+    .section-title h1 {
+        font-size: 32px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .underline {
+        margin-bottom: 50px !important;
+        width: 200px !important;
+        margin-top: 0 !important;
+    }
+
+    /* services */
+    .services h4,
+    #about-us h4 {
+        font-size: 27px !important;
+        margin-top: 0 !important;
+    }
+
+    .sv-img {
+        margin-top: 0 !important;
+    }
+    
+    /* about-us */
+    .about-left {
+        padding-top: 0 !important;
+    }
+
+    /* testimonial */
+    .middle-border {
+        display: none;
+    }
+    
+    /* contact */
+    .social {
+        margin-top: 60px !important;
+    }
+
+    .social-icons img {
+        height: 80px !important;
+    }
+
+    .social img {
+        margin-top: 10px !important;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+        
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    
+    #banner .col-md-6 {
+        text-align: center;
+    }
+    
+    .promo-title {
+        font-size: 35px !important;
+    }
+
+    /* all section */
+    #services,
+    #about-us,
+    #testimonials,
+    #contact {
+        padding: 35px 0 !important;
+    }
+
+    .section-title h1 {
+        font-size: 32px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .underline {
+        margin-bottom: 50px !important;
+        width: 200px !important;
+        margin-top: 0 !important;
+    }
+
+    /* services */
+    .services h4,
+    #about-us h4 {
+        font-size: 27px !important;
+        margin-top: 0 !important;
+    }
+
+    .sv-img {
+        margin-top: 0 !important;
+    }
+    
+    /* about-us */
+    .about-left {
+        padding-top: 0 !important;
+    }
+
+    /* testimonial */
+    .middle-border {
+        display: none;
+    }
+    
+    /* contact */
+    .social {
+        margin-top: 60px !important;
+    }
+
+    .social-icons img {
+        height: 80px !important;
+    }
+
+    .social img {
+        margin-top: 10px !important;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+    
+}
