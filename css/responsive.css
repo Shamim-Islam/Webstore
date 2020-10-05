@@ -38,7 +38,7 @@
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+
     .promo-title {
         font-size: 30px !important;
     }
@@ -109,11 +109,11 @@
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+
     #banner .col-md-6 {
         text-align: center;
     }
-    
+
     .promo-title {
         font-size: 35px !important;
     }
@@ -147,7 +147,7 @@
     .sv-img {
         margin-top: 0 !important;
     }
-    
+
     /* about-us */
     .about-left {
         padding-top: 0 !important;
@@ -157,7 +157,7 @@
     .middle-border {
         display: none;
     }
-    
+
     /* contact */
     .social {
         margin-top: 60px !important;
@@ -174,16 +174,16 @@
     h2 {
         font-size: 27px;
     }
-        
+
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    
+
     #banner .col-md-6 {
         text-align: center;
     }
-    
+
     .promo-title {
         font-size: 35px !important;
     }
@@ -194,6 +194,15 @@
     #testimonials,
     #contact {
         padding: 35px 0 !important;
+    }
+
+    .navbar {
+        padding: 5px 0 !important;
+    }
+
+    .navbar-brand img {
+        height: 45px !important;
+        padding-left: 10px !important;
     }
 
     .section-title h1 {
@@ -217,7 +226,7 @@
     .sv-img {
         margin-top: 0 !important;
     }
-    
+
     /* about-us */
     .about-left {
         padding-top: 0 !important;
@@ -227,7 +236,33 @@
     .middle-border {
         display: none;
     }
-    
+
+    #testimonials {
+        text-align: center;
+    }
+
+    #testimonials .col-10 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .testimonial-left {
+        text-align: center !important;
+    }
+
+    .testimonial-right {
+        margin-top: 50px;
+    }
+
+    .testi-left {
+        height: 370px !important;
+    }
+
+    .testi-right {
+        float: none !important;
+        height: 300px !important;
+    }
+
     /* contact */
     .social {
         margin-top: 60px !important;
@@ -244,5 +279,5 @@
     h2 {
         font-size: 27px;
     }
-    
+
 }
