@@ -43,6 +43,28 @@ $(document).ready(function () {
     
 })
 
+/*------------ cloge mobile navbar to click navlink -------------*/
+
+/*
+$(document).ready(function () {
+
+    $('#myNavbar li').click(function () {
+
+        $('.navbar-toggler').click();
+        $('.navbar-collapse').collapse('hide');
+        $('.navbar-toggler').toggleClass('change');
+    });
+
+});
+*/
+
+$('.navbar-nav>li>a').on('click', function(){
+    
+    $('.navbar-collapse').collapse('hide');
+    $('.navbar-toggler').toggleClass('change');
+    
+});
+
 /*------------ login form -------------*/
 
 const inputs = document.querySelectorAll('.input');
